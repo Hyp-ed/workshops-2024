@@ -12,7 +12,7 @@ If you have any other questions but are not able to ask during the workshop, don
 1. Install git on your machine
 2. Sign up to GitHub
 3. Fill in the GitHub details form (if you can't find it, message us)
-4. Go through the "[git and GitHub setup guide](https://github.com/Hyp-ed/workshops-2024/01-git/install_guide.md)" guide
+4. Go through the "[git and GitHub setup guide](https://github.com/Hyp-ed/workshops-2024/blob/master/01-git/install_guide.md)" guide
 
 ## Workshop Exercises
 
