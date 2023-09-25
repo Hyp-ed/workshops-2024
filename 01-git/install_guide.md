@@ -60,4 +60,21 @@ To work with the Software Team, you don't only need git, but also GitHub.
     ```
     Make sure you are using the same email adress as on your GitHub account.
 
-3. Set up SSH for connecting to GitHub. Follow [this guide](https://docs.github.com/en/authentication/connecting-to-github-with-ssh) to set up SSH on your machine and your GitHub account.
+3. Set up SSH for connecting to GitHub:
+   1. `ssh-keygen -t ed25519 -C "your_email@example.com"`
+   2. Accept the default save location
+   3. Give it a password or none
+   4. Add it to github following [this guide](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
+   5. Test your connection by running `ssh -T git@github.com`
+      1. You will see something like 
+      ```
+      > The authenticity of host 'github.com (IP ADDRESS)' can't be established.
+      > ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
+      > Are you sure you want to continue connecting (yes/no)?
+      ```
+      2. Answer yes
+      3. You should then see this if you have set it up properly
+      ```
+      > Hi USERNAME! You've successfully authenticated, but GitHub does not
+      > provide shell access.
+      ```
