@@ -24,7 +24,7 @@ $ mkdir build
 $ cd build
 $ cmake ..
 $ make -j
-$ ctest
+$ make test
 ```
 
 Most tests should fail.
