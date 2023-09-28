@@ -14,6 +14,8 @@ If you have any other questions but are not able to ask during the workshop, don
 3. Fill in the GitHub details form (if you can't find it, message us)
 4. Go through the "[git and GitHub setup guide](https://github.com/Hyp-ed/workshops-2024/blob/master/01-git/install_guide.md)" guide
 
+[Git reference](https://github.com/Hyp-ed/hyped-2022/wiki/Using-git-and-GitHub)
+
 ## Workshop Exercises
 
 ### Exercise 1
