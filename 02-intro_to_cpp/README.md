@@ -1,4 +1,4 @@
-# Basic C++ Workshop
+# Intro to C++ Workshop
 
 ## Purpose
 
